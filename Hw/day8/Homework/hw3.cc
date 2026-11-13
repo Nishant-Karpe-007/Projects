@@ -6,11 +6,12 @@ int main() {
     int target;
 
     for(int t=0;t<2;t++) {
-        if(t==0)
+        if(t==0){
             target=21;
-        else
+        }
+        else{
             target=99;
-
+        }
         int count=0;
 
         cout << "Searching for " << target << endl;
